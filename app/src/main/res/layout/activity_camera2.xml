@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.b1014001.camera222.Camera2Activity"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:weightSum="15">
+
+    <TextureView
+        android:layout_width="wrap_content"
+        android:layout_height="483dp"
+        android:id="@+id/textureView"
+        android:layout_weight="14" />
+    <Button
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/picture"
+        android:layout_weight="1" />
+</LinearLayout>
